@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="tee_request_permission_label">Tee Op Request</string>
+  <string name="tee_request_permission_description">Applications with this permission will be able
+    to send a request message to the TEE driver.</string>
+</resources>

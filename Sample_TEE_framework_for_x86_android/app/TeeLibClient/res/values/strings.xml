@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSafe TEE Lib Client</string>
+    <string name="tee_message"> The return Value: %1$d </string>
+    <string name="tee_button">Send work to TEE</string>
+</resources>

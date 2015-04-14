@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <library name="com.sample.android.lib.tee"
+    file="/system/framework/com.sample.android.lib.tee.jar"/>
+</permissions>
+
