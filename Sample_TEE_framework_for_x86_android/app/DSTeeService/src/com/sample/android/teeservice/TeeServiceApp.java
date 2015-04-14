@@ -11,7 +11,7 @@ import android.os.ServiceManager;
 import android.util.Log;
 import com.sample.android.service.tee.ITeedevService;
 
-/* This App does not have an GUI activity; Its role is to launch the Deepsafe service app instance only */
+/* This App does not have an GUI activity; Its role is to launch the sample TEE service app instance only */
 public class TeeServiceApp extends Application {
 
 	private static final String TAG = "TeeServiceApp";

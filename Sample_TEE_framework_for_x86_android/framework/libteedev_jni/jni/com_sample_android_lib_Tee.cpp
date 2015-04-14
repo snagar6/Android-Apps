@@ -1,5 +1,5 @@
 /*
- * com_deepsafe_android_lib_Tee.cpp: Native interface of the TEE JNI library; The methods defined here would
+ * com_sample_android_lib_Tee.cpp: Native interface of the TEE JNI library; The methods defined here would
  * be called by the TEE services layer of the TEE framework.
  */ 
 
@@ -12,7 +12,7 @@
 /* Custom jni exception defined for the TEE JNI interface */
 static void throwTeeException(JNIEnv *env, const char *msg) {
 
-	jniThrowException(env, "com/deepsafe/android/lib/tee/TeeException", msg);
+	jniThrowException(env, "com/sample/android/lib/tee/TeeException", msg);
 }
 
 
@@ -112,7 +112,7 @@ extern "C" jint JNI_OnLoad(JavaVM* vm, void* reserved) {
 	JNIEnv* env = NULL;
 
 	if (vm->GetEnv((void**) &env, JNI_VERSION_1_4) == JNI_OK) {
-		if (jniRegisterNativeMethods(env, "com/deepsafe/android/lib/tee/Tee",
+		if (jniRegisterNativeMethods(env, "com/sample/android/lib/tee/Tee",
 		    method_table, NELEM(method_table)) == 0) {
 			return JNI_VERSION_1_4;
 		}
