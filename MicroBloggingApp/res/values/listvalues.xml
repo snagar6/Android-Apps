@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="templates">
+        <item >I am sleepy as hell</item>
+        <item >Still a long way for the weekend</item>
+        <item >Hmmm... interesting !</item>
+    </string-array>
+    
+</resources>

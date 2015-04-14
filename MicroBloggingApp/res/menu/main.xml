@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item_new" android:title="@string/New_Tweet" android:showAsAction="always"></item>
+    <item android:id="@+id/item_web" android:title="@string/New_Web" android:showAsAction="always"></item>
+    <item android:id="@+id/item_SMS" android:title="@string/Send_SMS" android:showAsAction="always"></item>
+    <item android:id="@+id/item_refresh" android:icon="@drawable/ic_action_refresh" android:title="Refresh" android:showAsAction="always"></item>
+    <item android:id="@+id/item_preferences" android:title="@string/item_preferences"></item>
+    
+
+</menu>

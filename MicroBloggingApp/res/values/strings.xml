@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Eleee</string>
+    <string name="button_send">Post!</string>
+    <string name="comment_text">Post in your commnet:</string>
+	<string name="toast_text">Hi whats up??!!:</string>
+	<string name="message_text">Hi!!:</string>
+	<string name="canned_responses">Canned Responses</string>
+	<string name="New_Tweet">Tweet</string>
+	<string name="New_Web">Web</string>
+	<string name="Send_SMS">SMS</string>
+	<string name="item_preferences"> Item Preferences</string>	
+</resources>
