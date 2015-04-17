@@ -9,14 +9,15 @@ Brief introduction: (most of them hobby apps OR written to demonstrate my unders
    The current settings feature on the android device is nothing but an app.
    And, this Admin app is pretty much a subset of that. This app has limited capabilties
    to do only a few things like:
-   > Show all the Apps running on the device
-   > List all the servies available on the device
-   > Run basic Linux native commands (like ps, ls and cat) and display the results on screen
-   > Display per app activities
-   > Display per app permission listed on the manifest
-   > Kill an app
-   > Uninstall an app
-   > Show other misc details about an app
+   - Show all the Apps running on the device
+   - List all the servies available on the device
+   - Run basic Linux native commands (like ps, ls and cat) and display the results on screen
+   - Display per app activities
+   - Display per app permission listed on the manifest
+   - Kill an app
+   - Uninstall an app
+   - Show other misc details about an app
+
    Note: This apps needs to be packed as a system app with special permissions which cannot
    be obtained by normal google play store apps. Ideally, OEMs would sign these system app
    along with the build package for a device. 
