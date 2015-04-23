@@ -3,8 +3,7 @@ Author: Shreyas Nagaraj
 
 Brief introduction: (most of them hobby apps OR written to demonstrate my understanding about the Android system framework) 
 
-
-- "Android Admin App"
+- "Android App management app" (NOTE: More notes & slides can be found inside the project folder)
    This is an app which acts like a "settings" feature on a android device.
    The current settings feature on the android device is nothing but an app.
    And, this Admin app is pretty much a subset of that. This app has limited capabilties
@@ -41,4 +40,3 @@ Brief introduction: (most of them hobby apps OR written to demonstrate my unders
 
 - "Log Binder Demo"
   - One more exercise done as a part of the Marakana training.
-

@@ -1,0 +1,61 @@
+By: Shreyas Nagaraj
+
+
+ # 1 CLASS: TaskManager = (Main Class/ Main activity)
+
+
+    - onCreate(savedInstanceState) : GLobal state creation and having the bundle "savedInstanceState" saved to resume after being paused for a while. 
+ 
+      Note: > "Visible Lifetime" - Foreground/back ground -  onStart() until a corresponding call to onStop().
+              During this time, you can register a "BroadcastReceiver" in onStart() to monitor for changes that 
+              impact your UI, and unregister it in onStop() when the user an no longer see what you are displaying.
+ 
+            > Whereas - "OnPause()" & "OnResume()" - when the app comes in and out for user interaction (Foreground/top of activity stack) 
+
+
+    - requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS): Enable extended screen features. This must be called before setContentView().
+
+
+    - setContentView(R.layout.main)  - Set the screen content to an explicit view -  TextView Or XML View (R Layout defined under the resources)
+
+
+    - (activity manager) am = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE):  Returns the handle to a system-level service - Activity Manager
+
+
+    - (package Manager) pm = this.getApplicationContext(): Returns the context of the single, global Application object of the current process.
+           
+           getApplicationContext().getPackageManager():  Return PackageManager instance to find global package information of the Application package
+
+
+    - findViewById(R.id.btn_task).setOnClickListener(new OnClickListener())
+  
+      - Pick the Button with identifies "btn_task" and defines a onClickListener instance.
+      - Upon click the "OnClick()" method will be called. 
+
+
+    - Local Method < Packageinfo() >
+
+      Calls an Android API = pm.getPackageInfo(name, PackageManager.GET_ACTIVITIES):  
+      Overall information about the contents of a package. This corresponds to all of the information collected from "AndroidManifest.xml"
+
+ 
+    - Local Method < refresh() > : 
+
+      Creating a Thread "t" - and called "run()"
+
+       - pinfo = Local Method < ProcessInfo() > 
+         
+       - Local Method < getRunningProcess() > 
+                    
+       - Intent in = new Intent(ACTION_LOAD_FINISH) 
+         TaskManager.this.sendBroadcast(in):   Sending an intent as a broadcast message. 
+
+
+    -  Local Method < getRunningProcess() >
+  
+      Calls Android API: "am.getRunningAppProcesses()":  Returns a list of application processes that are running on the device.
+
+         
+
+
+  
