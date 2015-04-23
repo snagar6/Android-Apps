@@ -1,7 +1,7 @@
 # My-Android-Apps-Framework
 Author: Shreyas Nagaraj
 
-Brief introduction: (most of them hobby apps OR written to demonstrate my understanding about the Android system framework) 
+Brief introduction:
 
 - "Android App management app" (NOTE: More notes & slides can be found inside the project folder)
    This is an app which acts like a "settings" feature on a android device.
